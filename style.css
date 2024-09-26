@@ -2,7 +2,7 @@
 
 
 :root{
-    --cor-de-fundo: #201E43;
+    --cor-de-fundo: #07034e;
     --cor-primaria: #EEEEEE;
     --cor-secundaria: #508C9B;
     --fonte: "Nunitos Sans", sans-serif;
@@ -17,4 +17,39 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-primaria);
     font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+
+}
+
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 1s;
 }
