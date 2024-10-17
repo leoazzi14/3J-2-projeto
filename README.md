@@ -1,2 +1,2 @@
-# Projeto 3j-2projeto
-Leonardo Azzi n°21
+# Projeto 3_Tri
+Vitor Baffini N37
