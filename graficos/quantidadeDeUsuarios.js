@@ -16,7 +16,41 @@ async function quantidadeDeUsuarios(){
              color: getCSS('--cor-primaria')
         }
     }
-    ]
+]
+    const layout = {
+        plot_bgcolor: getCSS('--cor-de-fundo'),
+        paper_bgcolor: getCSS('-cor-de-fundo'),
+        tittle:{
+            text: 'Redes sociais com mais usuarios no mundo',
+            x: 0,
+            font:{
+             color: getCSS('--cor-primaria'),
+             family: getCSS('--fonte'),
+             size: 30
+            }
+        },
+        xaxis: {
+            tickfont: tickfont,
+            tittle:{
+                text: 'Nome das redes sociais',
+                font:{
+                    color: getCSS('--cor-primaria')
+                }
+            }
+        },
+        yaxis: {
+            tickfont: tickfont,
+            tittle:{
+                text: 'Milhes de usuarios ativos',
+                font:{
+                    color: getCSS('--cor-primaria')
+                }
+            }
+        }
+        
+
+    }
+  
 
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
